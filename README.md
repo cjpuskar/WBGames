@@ -7,7 +7,7 @@
 - [Instructions](#instructions)
 - [Coding Exercises](#coding-exercises)
   - [1. pulls data out of csv and/or json files](#1.pulls-data-out-of-csv-and/or-json-files)
-  - [2. Convert Data from CSV to JSON](#2.-convert-data-from-csv-to-json)
+  - [2.Convert Data from CSV to JSON](#2.-convert-data-from-csv-to-json)
   - [3.puts dates into a database and manipulates them](#puts-dates-into-a-database-and-manipulates-them)
   - [4. date manipulation in general](#date-manipulation-in-general)
   - [5. timeseries data](#timeseries-data)

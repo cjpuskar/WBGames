@@ -87,3 +87,13 @@
   I used the 'Spend_And_Rev_Working.ipynb' notebook to help me find unique values for these columns for use in CREATE TABLE statements.
 
  - I wanted to find the amount of money the City of SF spent on Police in 2015 so I ran 'complexJoin.sql' script to discover that the City spent over $519 million.
+
+```sqlite3
+SELECT S."Fiscal Year", S."Revenue or Spending", D.dept, sum(S.Amount)
+FROM SAR as S
+JOIN OrgGroup as O
+ON S.OrgGroupID = O.OrgGroupID
+JOIN Dept as D
+ON S.DeptID = D.DeptID
+WHERE S."Revenue or Spending" = "Spending" and O.OrgGroup = "Public Protection" and S."Fiscal Year" = "2015" and Dept = "Police"
+```

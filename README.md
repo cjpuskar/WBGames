@@ -31,6 +31,7 @@
      ```shell
      python csv-json.py -i Graffiti_30_Days.csv -o Graffiti_30_Days.json -f pretty
      ```
+     
 ## Date Manipulation
 ## Timeseries Data
 ## Dataframes

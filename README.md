@@ -30,10 +30,6 @@
   - For this challenge I created a script csv2sqlite.py which, when run from the command line will scan a given directory for csv files and load them into a database using the filename as the tablename.
 
   ```shell
-  pwd
-  ```
-
-  ```shell
   python csv2sqlite.py nameofdb directory
   ```
 
@@ -42,13 +38,14 @@
   ```
 
   Where:
-    * nameofdb =  sqlite3 database name, in this case CCSF_DB
-    * directory = location of csv files. Since the CSV files are in the projects root folder type 'pwd' and paste that in as the directory
+  - nameofdb =  sqlite3 database name, in this case CCSF_DB
+  - directory = location of csv files. Since the CSV files are in the projects root folder type 'pwd' and paste that in as the directory
 
 
 
 ## Convert Data from CSV to JSON
-
+  - For this challenge I created a script which converts a CSV file to a JSON file.
+  
   - The csv-json.py script converts a csv file into a json file.
   - It takes 3 arguments:
      * -i: Name of the input file

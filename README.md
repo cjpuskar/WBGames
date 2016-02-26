@@ -45,7 +45,7 @@
 
 ## Convert Data from CSV to JSON
   - For this challenge I created a script which converts a CSV file to a JSON file.
-  
+
   - The csv-json.py script converts a csv file into a json file.
   - It takes 3 arguments:
      * -i: Name of the input file
@@ -60,6 +60,8 @@
 ## Date Manipulation
 ## Timeseries Data
 ## Dataframes
+
+  - For this challenge I needed a time series dataset. On the SF data portal I found a dataset called Graffiti_30_Days which lists all reported cases of graffiti in the past 30 days. I decided to use this to plot the number of cases reported per day.
 
   - I loaded the Graffiti_30_Days csv file into Jupyter Notebooks to display some examples of Date Manipulation, Timeseries Data, and Dataframes.
 

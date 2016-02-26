@@ -8,7 +8,7 @@
 - [Coding Exercises](#coding-exercises)
   - [Pulls Data Out of CSV](#pulls-data-out-of-csv)
   - [Convert Data from CSV to JSON](#convert-data-from-csv-to-json)
-  - [Date Manipulation / Timeseries Data / Dataframes](#date-manipulation-/-timeseries-data-/-dataframes)
+  - [Date Manipulation](#date-manipulation)
   - [Timeseries Data](#timeseries-data)
   - [Dataframes](#dataframes)
   - [Select Joins](#select-joins)
@@ -22,7 +22,8 @@
 
 * CSV Files
  - Graffiti_30_Days
- - Spending_And_Revenue.csv.zip (make sure to unzip if you want to follow along)
+ - Spending_And_Revenue.csv.zip (Original dataset I started w/, only here as a ref, DONT USE!)
+ - Spending_And_Revenue.csv
 
 
 ## Pull Data Out of CSV
@@ -75,3 +76,14 @@
 
 ## Select Joins
 ## Complex Select
+
+  - For this challenge I wanted to show query's with JOINs in them but I didnt have a normalized database / datasets
+
+  - I noticed that the Spending_And_Revenue file had a lot of redundant data, containing both IDs and Description field names.
+   * Example: DeptID: 1, Dept: Police
+
+ - I decided to create 2 lookup tables for my database:
+  * OrgGroup
+  * Dept
+
+ - I used the 'Spend_And_Rev_Working.ipynb' notebook to help me with this.

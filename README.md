@@ -17,7 +17,7 @@
   - [9. pull data from DB and display time series/statistical data](#pull-data-from-DB-and-display-time-series/statistical-data)
 
 ## Dependencies
-
+* Jupyter Notebook
 * CSV Files
  - Graffiti_30_Days
 

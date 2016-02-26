@@ -8,7 +8,7 @@
 - [Coding Exercises](#coding-exercises)
   - [Pulls Data Out of CSV](#pulls-data-out-of-csv)
   - [Convert Data from CSV to JSON](#convert-data-from-csv-to-json)
-  - [Date Manipulation](#date-manipulation)
+  - [Date Manipulation / Timeseries Data / Dataframes](#date-manipulation-/-timeseries-data-/-dataframes)
   - [Timeseries Data](#timeseries-data)
   - [Dataframes](#dataframes)
   - [Select Joins](#select-joins)

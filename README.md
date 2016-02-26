@@ -77,12 +77,12 @@
 ## Select Joins
 ## Complex Select
 
-  - For this challenge I wanted to show query's with JOINs in them but I didnt have a normalized database / datasets. I noticed that the Spending_And_Revenue file had a lot of redundant data, containing both IDs and Description field names so I decided to create my own.
+- For this challenge I wanted to show query's with JOINs in them but I didnt have a normalized database / datasets. I noticed that the Spending_And_Revenue file had a lot of redundant data, containing both IDs and Description field names so I decided to create my own.
    * Example: DeptID: 1, Dept: Police
 
- - I created 2 lookup tables for my database
-  * OrgGroup
-  * Dept
+- I created 2 lookup tables for my database
+    * OrgGroup
+    * Dept
 
   I used the 'Spend_And_Rev_Working.ipynb' notebook to help me find unique values for these columns for use in CREATE TABLE statements.
 

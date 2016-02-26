@@ -77,6 +77,7 @@
 ## Select Joins
 ## Complex Select
 
+
   - For this challenge I wanted to show query's with JOINs in them but I didnt have a normalized database / datasets. I noticed that the Spending_And_Revenue file had a lot of redundant data, containing both IDs and Description field names.
    * Example: DeptID: 1, Dept: Police
 
@@ -85,3 +86,7 @@
   * Dept
 
   I used the 'Spend_And_Rev_Working.ipynb' notebook to help me find unique values for these columns for use in CREATE TABLE statements.
+
+ - I wanted to find the amount of money the City of SF spent on Police in 2015 so I ran complexJoin.sql script to discover that the City spent over $519 million.
+
+ 

@@ -8,13 +8,11 @@
 - [Coding Exercises](#coding-exercises)
   - [1. pulls data out of csv and/or json files](#1.pulls-data-out-of-csv-and/or-json-files)
   - [Convert Data from CSV to JSON](#convert-data-from-csv-to-json)
-  - [3.puts dates into a database and manipulates them](#puts-dates-into-a-database-and-manipulates-them)
-  - [4. date manipulation in general](#date-manipulation-in-general)
-  - [5. timeseries data](#timeseries-data)
+  - [Date Manipulation](#date-manipulation)
+  - [Timeseries Data](#timeseries-data)
+  - [Dataframes](#dataframes)
   - [6. select joins inner/left/right/full/cartesian](#select-joins-inner/left/right/full/cartesian)
   - [7. complex select (i.e. aggregate/group by, with pragma, recursive, etc)](#complex-select-(i.e.-aggregate/group-by,-with-pragma,-recursive,-etc))
-  - [8. dataframes](#dataframes)
-  - [9. pull data from DB and display time series/statistical data](#pull-data-from-DB-and-display-time-series/statistical-data)
 
 ## Dependencies
 * Jupyter Notebook
@@ -33,3 +31,16 @@
      ```shell
      python csv-json.py -i Graffiti_30_Days.csv -o Graffiti_30_Days.json -f pretty
      ```
+## Date Manipulation
+## Timeseries Data
+## Dataframes
+
+  - I loaded the Graffiti_30_Days csv file into Jupyter Notebooks to display some examples of Date Manipulation, Timeseries Data, and Dataframes.
+
+    * To open jupyter notebooks, at the command line type:
+
+    ```shell
+    jupyter notebooks
+    ```
+
+    * and open 'Grafetti_Time_Series_Analysis.ipynb'

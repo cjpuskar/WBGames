@@ -15,10 +15,14 @@
   - [7. complex select (i.e. aggregate/group by, with pragma, recursive, etc)](#complex-select-(i.e.-aggregate/group-by,-with-pragma,-recursive,-etc))
 
 ## Dependencies
+
+* Data files were downloaded from https://data.sfgov.org/
+
 * Jupyter Notebook
+
 * CSV Files
  - Graffiti_30_Days
-
+ - Spending_And_Revenue.csv.zip (make sure to unzip if you want to follow along)
 
 ## Convert Data from CSV to JSON
 
@@ -31,7 +35,7 @@
      ```shell
      python csv-json.py -i Graffiti_30_Days.csv -o Graffiti_30_Days.json -f pretty
      ```
-     
+
 ## Date Manipulation
 ## Timeseries Data
 ## Dataframes

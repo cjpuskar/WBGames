@@ -19,12 +19,12 @@
 * Data files were downloaded from https://data.sfgov.org/
 
 * Jupyter Notebook
-
+* sqlite3
+* Python
 * CSV Files
  - Graffiti_30_Days
  - Spending_And_Revenue.csv.zip (Original dataset I started w/, only here as a ref, DONT USE!)
  - Spend_And_Rev.csv
-
 
 ## Pull Data Out of CSV
 

@@ -11,7 +11,7 @@ cursor = connection.cursor()
 
 # Create OrgGroup Table
 cursor.execute("DROP TABLE IF EXISTS OrgGroup")
-cursor.execute("CREATE TABLE OrgGroup ( OrgGroupID PRIMARY KEY, OrgGroup, FOREIGN KEY ) ")
+cursor.execute("CREATE TABLE OrgGroup ( OrgGroupID PRIMARY KEY, OrgGroup ) ")
 connection.commit()
 
 # Insert Values into OrgGroup Table

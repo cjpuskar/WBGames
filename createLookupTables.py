@@ -1,3 +1,7 @@
+'''
+This script is used to create the OrgGroup and Dept tables in the CCSF_DB database.
+'''
+
 # MODULES
 import sqlite3
 

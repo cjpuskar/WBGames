@@ -6,13 +6,13 @@
 - [Dependencies](#dependencies)
 - [Instructions](#instructions)
 - [Coding Exercises](#coding-exercises)
-  - [1. pulls data out of csv and/or json files](#1.pulls-data-out-of-csv-and/or-json-files)
+  - [Pulls Data Out of CSV](#pulls-data-out-of-csv)
   - [Convert Data from CSV to JSON](#convert-data-from-csv-to-json)
   - [Date Manipulation](#date-manipulation)
   - [Timeseries Data](#timeseries-data)
   - [Dataframes](#dataframes)
-  - [6. select joins inner/left/right/full/cartesian](#select-joins-inner/left/right/full/cartesian)
-  - [7. complex select (i.e. aggregate/group by, with pragma, recursive, etc)](#complex-select-(i.e.-aggregate/group-by,-with-pragma,-recursive,-etc))
+  - [Select Joins](#select-joins)
+  - [Complex Select](#complex-select)
 
 ## Dependencies
 
@@ -23,6 +23,29 @@
 * CSV Files
  - Graffiti_30_Days
  - Spending_And_Revenue.csv.zip (make sure to unzip if you want to follow along)
+
+
+## Pull Data Out of CSV
+
+  - For this challenge I created a script csv2sqlite.py which, when run from the command line will scan a given directory for csv files and load them into a database using the filename as the tablename.
+
+  ```shell
+  pwd
+  ```
+
+  ```shell
+  python csv2sqlite.py nameofdb directory
+  ```
+
+  ```shell
+  python csv3sqlite.py CCSF_DB /Users/cpuskar/Projects/WBGames
+  ```
+
+  Where:
+    * nameofdb =  sqlite3 database name, in this case CCSF_DB
+    * directory = location of csv files. Since the CSV files are in the projects root folder type 'pwd' and paste that in as the directory
+
+
 
 ## Convert Data from CSV to JSON
 
@@ -35,6 +58,7 @@
      ```shell
      python csv-json.py -i Graffiti_30_Days.csv -o Graffiti_30_Days.json -f pretty
      ```
+ - The outputted JSON file is Graffiti_30_Days.json
 
 ## Date Manipulation
 ## Timeseries Data
@@ -48,4 +72,7 @@
     jupyter notebooks
     ```
 
-    * and open 'Grafetti_Time_Series_Analysis.ipynb'
+    * Open 'Grafetti_Time_Series_Analysis.ipynb'
+
+## Select Joins
+## Complex Select
